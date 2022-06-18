@@ -38,7 +38,7 @@ const usePlayer = () => {
   };
 
   const startAllActiveSamples = () => {
-    stopAllActiveSamples();
+    stopAllActiveSamples(); // because we might have longer/shorter sounds then LOOP_TIME (8 sec)
     activeSamples.forEach(activeSample => 'play' in activeSample.audio && activeSample.audio.play())
   };
 

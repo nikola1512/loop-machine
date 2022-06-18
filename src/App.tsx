@@ -14,20 +14,6 @@ const samples: SampleType[] = [
   {id: '9', label: 'Sample 9', src: '/assets/audio-9.mp3'},
 ];
 
-// TODO:
-
-// no delays anywhere
-
-// try to lift new audio outside the Pads components
-
-// make more hooks (for player the most important)
-
-// Put everything in css not inline
-
-
-
-
-
 function App() {
   return (
     <div className="l-page">
